@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.featured {
+  text-align: center;
+  padding: 40px 20px;
+  font-weight: 200;
+  font-size: 40px; 
+  font-family: "Josefin Sans", sans-serif;
+}
+
+
+.allImg {
+  width: 100%;
+  padding-top: 0.5rem;
+}
+
+.logocontWidth {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.jacobImg {
+  height: 180px;
+  transition: 1s;
+}
+
+.omegaImg {
+  height: 260px;
+  transition: 1s;
+}
+
+.patekImg {
+  width: 330px;
+  height: 200px;
+  transition: 1s;
+}
+
+.rolexImg {
+  width: 300px;
+  transition: 1s;
+}
+
+.allContainer {
+  width: 100%;
+}
+
+div h6 {
+  font-size: 24px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.brandh2  {
+  font-weight: 200;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 40px;
+  padding: 30px;
+}
+
+
+ul li {
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px;
+  list-style: none;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+ul li:hover {
+  color: blueviolet;
+}
+
+.alphabetBrand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.alphStart {
+  padding: 30px;
+  width: 300px;
+  height: 300px;
+}
+
+
+@media (max-width: 1025px) {
+
+   .jacobImg {
+    height: 140px;
+    transition: 1s;
+  }
+  
+  .omegaImg {
+    height: 220px;
+    transition: 1s;
+  }
+  
+  .patekImg {
+    width: 280px;
+    height: 150px;
+    transition: 1s;
+  }
+  
+  .rolexImg {
+    width: 240px;
+    transition: 1s;
+  } 
+}
+
+@media (max-width: 770px) {
+   .jacobImg {
+    height: 100px;
+    transition: 1s;
+  }
+  
+  .omegaImg {
+    height: 170px;
+    transition: 1s;
+  }
+  
+  .patekImg {
+    width: 200px;
+    height: 100px;
+    transition: 1s;
+  }
+  
+  .rolexImg {
+    width: 135px;
+    transition: 1s;
+  } 
+}
+
+@media (max-width: 430px) {
+   .jacobImg {
+    display: none;
+  }
+  
+  .omegaImg {
+    display: none;
+  }
+  
+  .patekImg {
+    display: none;
+  }
+  
+  .rolexImg {
+    display: none;
+  } 
+  .alphabetBrand {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .brandh2  {
+    font-weight: 300;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+    padding: 0;
+    text-align: center;
+  }
+  .featured {
+    display: none;
+  }
+}
+

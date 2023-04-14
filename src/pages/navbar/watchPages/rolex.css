@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.roleximg {
+  width: 100%;
+  height: 2812.5%;
+}
+
+.titleRolex  {
+  display: flex;
+  justify-content: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 350%;
+  font-weight: 200;
+  transition: 1s;
+}
+
+.textRolexBody {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 110%;
+  width: 45%;
+  text-align: left;
+  transition: 2s;
+  margin-top: 10px;
+}
+
+.secondrolexbody {
+  padding-top: 4%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.changinImg {
+  width: 100%;
+  height: 25rem;
+  margin-top: 30px;
+}
+
+.secrolebody {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.WatchBody {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  transition: 1s;
+}
+
+@media (max-width: 1024px){
+  .textRolexBody {
+    font-weight: 300;
+    font-size: 110%;
+    width: 64%;
+    text-align: left;
+    transition: 2s;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .titleRolex{
+    font-size: 300%;
+    font-weight: 200;
+    transition: 1s;
+  }
+
+  .textRolexBody {
+    font-weight: 300;
+    font-size: 100%;
+    width: 84%;
+    text-align: left;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 430px) {
+  .titleRolex{
+    font-size: 200%;
+    font-weight: 200;
+    transition: 1s;
+  }
+
+  .textRolexBody {
+    font-weight: 300;
+    font-size: 85%;
+    width: 90%;
+    transition: 1s;
+  }
+  .roleximg {
+    margin-top: 15px;
+    width: 100%;
+    height: 2812.5%;
+  }
+}
+

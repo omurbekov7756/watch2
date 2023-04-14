@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.shopping-cart {
+  width: 850px;
+  height: 200px;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.upperTitle {
+  width: 850px;
+  justify-content: space-around;
+  height: 150px;
+  border-bottom: 1px solid #e1e8ee;
+  padding: 10px 10px;
+  color: #333;
+  display: flex;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.quantity p {
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-size: 16px;
+  color: #43484d;
+  font-weight: 300;
+  font-family: "Josefin Sans", sans-serif;
+
+}
+
+.columnItem {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.item {
+  justify-content: space-around;
+  margin-top: 20px;
+  padding: 20px 0px;
+  height: 400px;
+  display: flex;
+}
+
+.item {
+  border-top: 1px solid #e1e8ee;
+  border-bottom: 1px solid #e1e8ee;
+}
+
+.delete-btn,
+.like-btn {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.image123 {
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+.subTotalCart {
+  width: 200px;
+  text-align: end;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+}
+
+.PRoductCart {
+  width: 200px;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+}
+
+.PRICECart {
+  text-align: center;
+  width: 200px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+}
+
+.description {
+  display: flex;
+  justify-content: flex-start;
+  width: 180px;
+  height: 200px;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.description span {
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  color: #43484d;
+  font-weight: 300;
+}
+
+.Divup {
+  height: 230px;
+  width: 300px;
+}
+
+.title .title-brand {
+  cursor: pointer;
+}
+
+.quantity {
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.minusBTN {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.plusBTN {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:focus,
+input:focus {
+  outline: 0;
+}
+
+.total-price {
+  width: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 200px;
+  font-size: 16px;
+  color: #43484d;
+  font-weight: 300;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.cartBUTTON {
+  background-color: #ffffff;
+  cursor: pointer;
+  border: none;
+  font-weight: 300;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  margin:20px 20px;
+}
+
+.cartBUTTON:hover {
+  color: blueviolet;
+}
+
+.subPrice {
+  width: 200px;
+  margin-left: 50px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+@media (max-width: 770px) {
+  .shopping-cart {
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    width: 700px; 
+    height: 200px;
+    transition: 1s;
+  }
+
+  .upperTitle {
+    width: 700px;
+    justify-content: space-around;
+    height: 150px;
+    border-bottom: 1px solid #e1e8ee;
+    color: #333;
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 430px) {
+  .shopping-cart {
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    width: 400px; 
+    height: 200px;
+    transition: 1s;
+  }
+
+  .upperTitle {
+    width: 400px;
+    justify-content: space-around;
+    height: 150px;
+    border-bottom: 1px solid #e1e8ee;
+    color: #333;
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .columnItem {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Josefin Sans", sans-serif;
+    padding-left: 30px;
+  }
+
+  .title-brand{
+    visibility: hidden;
+  }
+  .item {
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 20px 0px;
+    height: 600px;
+    display: flex;
+  }
+  
+}

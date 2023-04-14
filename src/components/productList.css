@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.all-watch-form{
+  display: flex;
+  flex-direction: row;
+}
+
+.search {
+  font-weight: 300;
+  color: #333;
+  height: 5px;
+  border-radius: 3%;
+  width: 300px;
+  padding: 14px 16px;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.mainIMG {
+  width: 100%;
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.autocomplete {
+  position: absolute; 
+  z-index: 10;
+  width: 300px;
+  background: rgb(255, 255, 255);
+  -webkit-box-shadow: 0px 12px 15px 2px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 0px 12px 15px 2px rgba(0, 0, 0, 0.46);
+  box-shadow: 0px 12px 15px 2px rgba(0, 0, 0, 0.46);  
+  border-radius: 2%;
+}
+
+.itemcomplete{
+  padding: 0px 0px 0px 12px;
+  line-height: 40px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  transition: 1.5s;
+}
+
+.itemcomplete:hover {
+  background: rgb(214, 214, 214);
+  cursor: pointer;
+  transition:  1.5s;
+}
+
+.DivSearch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100px;
+}
+
+.watchCard {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 430px) {
+  .search {
+    width: 270px;
+    transition: 1s;
+  }
+  .autocomplete {
+    width: 270px;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 380px) {
+  .mainIMG {
+    display: none;
+  }
+  .search {
+    width: 230px;
+    transition: 1s;
+  }
+  .autocomplete {
+    width: 230px;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 330px) {
+  .search {
+    width: 200px;
+    transition: 1s;
+  }
+  .autocomplete {
+    width: 200px;
+    transition: 1s;
+  }
+}

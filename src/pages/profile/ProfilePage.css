@@ -1,0 +1,98 @@
+.accImg {
+    padding-top: 5px;
+    width: 100%;
+  }
+  
+  .accTitle {
+    font-weight: 200;
+    font-size: 3.125rem;
+    width: 23rem;
+    padding: 1.25rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .secondaryAccImage {
+    width: 600px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .accImage {
+    width: 100%;
+    border-radius: 10%;
+  }
+  
+  .accInputs {
+    width: 23rem;
+    display: block;
+    justify-content: center;
+  }
+  
+  .accInputs h2 {
+    width: 23rem;
+    font-size: 3rem;
+    font-weight: 300;
+    text-align: center;
+  }
+  
+  .accinp {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    width: 23rem;
+    border-bottom: 1px solid #333;
+    padding: 1rem;
+    font-weight: 300;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .logoutBTN {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    text-align: center;
+    height: 5rem;
+    width: 7rem;
+    padding: 1rem;
+    font-weight: 300;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  .labacco {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .logoutBTN:hover {
+    color: blueviolet;
+  }
+  
+  .homBTN {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    text-align: center;
+    height: 5rem;
+    width: 9rem;
+    padding: 1rem;
+    font-weight: 300;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  .loghomBTN {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .homBTN:hover {
+    color: blueviolet;
+  }

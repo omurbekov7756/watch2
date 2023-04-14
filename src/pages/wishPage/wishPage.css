@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.XBTN {
+  background-color: #fff;
+  border: none;
+}
+
+.shopping-wish {
+  width: 850px; 
+  height: 200px;
+  margin: 80px auto;
+}
+
+.wishPrice{
+  width: 150px;
+}
+
+.wishProduct {
+  width: 150px;
+}
+
+.wishTitle {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #e1e8ee;
+  color: #333;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.quantity p {
+  width: 32px;
+  font-size: 16px;
+  color: #43484d;
+  font-weight: 300;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.columnItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  font-weight: 300;
+  font-family: "Josefin Sans", sans-serif;
+  height: 70px;
+}
+
+.itemWish {
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 20px 30px;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.itemWish {
+  border-top: 1px solid #e1e8ee;
+  border-bottom: 1px solid #e1e8ee;
+}
+
+.image123 {
+  width: 150px;
+  height: 150px;
+  margin-right: 50px;
+}
+
+.xBTN {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.wish2Price {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 130px;
+  height: 260px;
+}
+
+.wish2Price span {
+  text-align: center;
+  display: flex;
+  font-size: 20px;
+  color: #43484d;
+  font-weight: 300;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.Divup {
+  height: 200px;
+  width: 300px;
+}
+
+.quantityWish {
+  align-items: center;
+  display: flex;
+  height: 260px;
+}
+
+.wishBUTTON {
+  background-color: #ffffff;
+  cursor: pointer;
+  border: none;
+  font-weight: 300;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.cartBUTTON:hover {
+  color: blueviolet;
+}
+
+@media (max-width: 770px) {
+  .shopping-wish {
+    width: 700px; 
+    height: 200px;
+    margin: 80px auto;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 430px) {
+  .shopping-wish {
+    width: 400px; 
+    margin: 80px auto;
+    transition: 1s;
+  }
+  .wishPrice {
+    width: 70px;
+    transition: 1s;
+  }
+  .itemWish {
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px 20px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .wish2Price {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 130px;
+    height: 230px;
+  }
+  .columnItem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    font-weight: 300;
+    font-family: "Josefin Sans", sans-serif;
+  }
+}
