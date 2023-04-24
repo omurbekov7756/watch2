@@ -1,4 +1,4 @@
-export const API = "http://localhost:8000/watches";
+export const API = "https://watches-bd-json.vercel.app/watches";
 
 export const ACTIONS = {
   products: "products",
